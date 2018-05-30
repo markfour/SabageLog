@@ -30,7 +30,7 @@
         <!--Log List View Controller-->
         <scene sceneID="E0c-RA-uIZ">
             <objects>
-                <viewController id="LVj-6Y-BwX" customClass="LogListViewController" sceneMemberID="viewController">
+                <viewController id="LVj-6Y-BwX" customClass="LogListViewController" customModule="SabageLog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NPY-ck-dJP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,9 +38,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cNH-yy-XTv">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1mv-rC-4G2">
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1mv-rC-4G2">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="559"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <sections/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="LVj-6Y-BwX" id="zHO-ot-PQO"/>
+                                            <outlet property="delegate" destination="LVj-6Y-BwX" id="F5O-L2-TIw"/>
+                                        </connections>
                                     </tableView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icQ-Vj-Cna">
                                         <rect key="frame" x="0.0" y="559" width="375" height="44"/>
@@ -65,10 +70,13 @@
                         <viewLayoutGuide key="safeArea" id="jnC-Md-G0K"/>
                     </view>
                     <navigationItem key="navigationItem" id="3qu-t8-0CT">
-                        <barButtonItem key="rightBarButtonItem" title="設定" style="plain" id="WSf-Z3-Grb">
+                        <barButtonItem key="rightBarButtonItem" title="設定" id="WSf-Z3-Grb">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="1mv-rC-4G2" id="JPT-gt-Ega"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kUn-ar-EZ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -13,6 +13,7 @@
 		20DEB30C20BEDFE600D51025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20DEB30B20BEDFE600D51025 /* Assets.xcassets */; };
 		20DEB30F20BEDFE600D51025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DEB30D20BEDFE600D51025 /* LaunchScreen.storyboard */; };
 		20DEB31A20BEDFE600D51025 /* SabageLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DEB31920BEDFE600D51025 /* SabageLogTests.swift */; };
+		20DEB32F20BEE47E00D51025 /* LogListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DEB32E20BEE47E00D51025 /* LogListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		20DEB31520BEDFE600D51025 /* SabageLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SabageLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DEB31920BEDFE600D51025 /* SabageLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabageLogTests.swift; sourceTree = "<group>"; };
 		20DEB31B20BEDFE600D51025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20DEB32E20BEE47E00D51025 /* LogListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				20DEB30420BEDFE600D51025 /* AppDelegate.swift */,
-				20DEB30620BEDFE600D51025 /* LogListViewController.swift */,
-				20DEB30820BEDFE600D51025 /* Main.storyboard */,
 				20DEB30B20BEDFE600D51025 /* Assets.xcassets */,
-				20DEB30D20BEDFE600D51025 /* LaunchScreen.storyboard */,
 				20DEB31020BEDFE600D51025 /* Info.plist */,
+				20DEB30D20BEDFE600D51025 /* LaunchScreen.storyboard */,
+				20DEB30620BEDFE600D51025 /* LogListViewController.swift */,
+				20DEB32E20BEE47E00D51025 /* LogListViewModel.swift */,
+				20DEB30820BEDFE600D51025 /* Main.storyboard */,
 			);
 			path = SabageLog;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20DEB32F20BEE47E00D51025 /* LogListViewModel.swift in Sources */,
 				20DEB30720BEDFE600D51025 /* LogListViewController.swift in Sources */,
 				20DEB30520BEDFE600D51025 /* AppDelegate.swift in Sources */,
 			);

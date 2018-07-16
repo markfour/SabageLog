@@ -7,8 +7,8 @@
 //
 
 import Foundation
-import Realm
+import RealmSwift
 
-class LogItem {
-//  dynamic var title = ""
+class LogItemModel: Object {
+  @objc dynamic var title = ""
 }

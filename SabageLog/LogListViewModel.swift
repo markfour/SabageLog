@@ -7,7 +7,13 @@
 //
 
 import UIKit
+import RealmSwift
 
-class LogListViewModel: NSObject {
-
+class LogListViewModel: Object {
+  @objc dynamic var itemId: String = UUID().uuidString
+  @objc dynamic var title: String = ""
+  
+  override static func primaryKey() -> String? {
+    return "itemId"
+  }
 }

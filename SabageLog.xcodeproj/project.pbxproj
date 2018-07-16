@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		204974E420FCCCD800786266 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204974E320FCCCD700786266 /* RealmSwift.framework */; };
+		204974E620FCCCE700786266 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204974E520FCCCE700786266 /* Realm.framework */; };
 		20DEB30520BEDFE600D51025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DEB30420BEDFE600D51025 /* AppDelegate.swift */; };
 		20DEB30720BEDFE600D51025 /* LogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DEB30620BEDFE600D51025 /* LogListViewController.swift */; };
 		20DEB30A20BEDFE600D51025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DEB30820BEDFE600D51025 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		204974E320FCCCD700786266 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		204974E520FCCCE700786266 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		20DEB30120BEDFE600D51025 /* SabageLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SabageLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DEB30420BEDFE600D51025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20DEB30620BEDFE600D51025 /* LogListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204974E620FCCCE700786266 /* Realm.framework in Frameworks */,
+				204974E420FCCCD800786266 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +68,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		204974E220FCCCD700786266 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				204974E520FCCCE700786266 /* Realm.framework */,
+				204974E320FCCCD700786266 /* RealmSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		20DEB2F820BEDFE500D51025 = {
 			isa = PBXGroup;
 			children = (
 				20DEB30320BEDFE600D51025 /* SabageLog */,
 				20DEB31820BEDFE600D51025 /* SabageLogTests */,
 				20DEB30220BEDFE600D51025 /* Products */,
+				204974E220FCCCD700786266 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,13 +228,15 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
 			);
 			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = "/usr/local/bin/carthage copy-frameworks\n/usr/local/bin/carthage copy-frameworks\n/usr/local/bin/carthage copy-frameworks";
-			shellScript = "$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework";
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -385,6 +403,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QC7RJ22359;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SabageLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = id.SabageLog;
@@ -400,6 +422,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QC7RJ22359;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SabageLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = id.SabageLog;

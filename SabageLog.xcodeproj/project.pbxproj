@@ -115,6 +115,7 @@
 				20DEB2FD20BEDFE600D51025 /* Sources */,
 				20DEB2FE20BEDFE600D51025 /* Frameworks */,
 				20DEB2FF20BEDFE600D51025 /* Resources */,
+				204974E020FCAE7400786266 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -203,6 +204,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		204974E020FCAE7400786266 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/usr/local/bin/carthage copy-frameworks\n/usr/local/bin/carthage copy-frameworks\n/usr/local/bin/carthage copy-frameworks";
+			shellScript = "$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20DEB2FD20BEDFE600D51025 /* Sources */ = {

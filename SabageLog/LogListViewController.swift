@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class LogListViewController: UIViewController {
   @IBOutlet private weak var tableView: UITableView!
@@ -24,7 +25,8 @@ extension LogListViewController: UITableViewDataSource {
   }
   
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return 10
+    let realm = try! Realm()
+    return realm.objects(LogItemModel.self).count
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

@@ -10,5 +10,6 @@ import Foundation
 import RealmSwift
 
 class LogItemModel: Object {
-  @objc dynamic var title = ""
+  @objc dynamic var title: String = ""
+  @objc dynamic var date: Date = Date()
 }

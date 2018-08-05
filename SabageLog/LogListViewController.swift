@@ -25,6 +25,8 @@ class LogListViewController: UIViewController {
     try! realm.write {
       realm.add(logItem)
     }
+    
+    tableView.reloadData()
   }
 }
 

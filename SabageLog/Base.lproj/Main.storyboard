@@ -56,6 +56,9 @@
                                         <state key="normal" title="ログを追加">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="addLogAction:" destination="LVj-6Y-BwX" eventType="touchUpInside" id="bfx-gY-MLL"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>

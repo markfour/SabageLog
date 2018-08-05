@@ -17,6 +17,15 @@ class LogListViewController: UIViewController {
     
     tableView.register(UINib(nibName: "LogListTableViewCell", bundle: nil), forCellReuseIdentifier: "Cell")
   }
+  
+  @IBAction func addLogAction(_ sender: UIButton) {
+    let logItem = LogItemModel()
+    logItem.title = "test"
+    let realm = try! Realm()
+    try! realm.write {
+      realm.add(logItem)
+    }
+  }
 }
 
 extension LogListViewController: UITableViewDataSource {

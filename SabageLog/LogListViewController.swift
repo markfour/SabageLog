@@ -47,3 +47,11 @@ extension LogListViewController: UITableViewDataSource {
     return cell
   }
 }
+
+extension LogListViewController: UITableViewDelegate {
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let storyborad = UIStoryboard(name: "Main", bundle: nil)
+    let logListViewController = storyborad.instantiateViewController(withIdentifier: "LogListViewController")
+    navigationController?.pushViewController(logListViewController, animated: true)
+  }
+}

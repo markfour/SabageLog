@@ -6,4 +6,8 @@
 //  Copyright © 2018年 kazumi hayashida. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class LogDetailViewController: UIViewController {
+  
+}

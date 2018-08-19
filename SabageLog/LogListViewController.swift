@@ -15,6 +15,8 @@ class LogListViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    navigationController?.navigationBar.tintColor = .white
+    
     tableView.register(UINib(nibName: "LogListTableViewCell", bundle: nil), forCellReuseIdentifier: "Cell")
   }
   

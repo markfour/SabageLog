@@ -9,5 +9,9 @@
 import UIKit
 
 class LogDetailViewController: UIViewController {
-  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    navigationController!.navigationBar.topItem!.title = "戻る"
+  }
 }

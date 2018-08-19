@@ -52,6 +52,8 @@ extension LogListViewController: UITableViewDataSource {
 
 extension LogListViewController: UITableViewDelegate {
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    tableView.deselectRow(at: indexPath, animated: true)
+    
     let storyborad = UIStoryboard(name: "Main", bundle: nil)
     let logListViewController = storyborad.instantiateViewController(withIdentifier: "LogListViewController")
     navigationController?.pushViewController(logListViewController, animated: true)

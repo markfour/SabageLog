@@ -15,6 +15,8 @@ class LogDetailViewController: UIViewController {
     super.viewDidLoad()
     
     navigationController!.navigationBar.topItem!.title = "戻る"
+    
+    tableView.register(UINib(nibName: "LogDetailTextInputTableViewCell", bundle: nil), forCellReuseIdentifier: "textInput")
   }
 }
 
@@ -28,9 +30,7 @@ extension LogDetailViewController: UITableViewDataSource {
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//    let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! LogListTableViewCell
-//    cell.gameFiled = "TAF Zone"
-//    cell.date = Date()
-    return UITableViewCell()
+    let cell = tableView.dequeueReusableCell(withIdentifier: "textInput", for: indexPath) as! LogDetailTextInputTableViewCell
+    return cell
   }
 }

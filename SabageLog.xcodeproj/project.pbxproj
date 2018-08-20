@@ -11,6 +11,8 @@
 		204974E620FCCCE700786266 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204974E520FCCCE700786266 /* Realm.framework */; };
 		204974E820FCD0B400786266 /* LogItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204974E720FCD0B400786266 /* LogItemModel.swift */; };
 		20C4471B21172DE800922F58 /* LogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4471A21172DE800922F58 /* LogDetailViewController.swift */; };
+		20C4471E212A7D1A00922F58 /* LogDetailTextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4471C212A7D1A00922F58 /* LogDetailTextInputTableViewCell.swift */; };
+		20C4471F212A7D1A00922F58 /* LogDetailTextInputTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C4471D212A7D1A00922F58 /* LogDetailTextInputTableViewCell.xib */; };
 		20DEB30520BEDFE600D51025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DEB30420BEDFE600D51025 /* AppDelegate.swift */; };
 		20DEB30720BEDFE600D51025 /* LogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DEB30620BEDFE600D51025 /* LogListViewController.swift */; };
 		20DEB30A20BEDFE600D51025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DEB30820BEDFE600D51025 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 		204974E520FCCCE700786266 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		204974E720FCD0B400786266 /* LogItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogItemModel.swift; sourceTree = "<group>"; };
 		20C4471A21172DE800922F58 /* LogDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDetailViewController.swift; sourceTree = "<group>"; };
+		20C4471C212A7D1A00922F58 /* LogDetailTextInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDetailTextInputTableViewCell.swift; sourceTree = "<group>"; };
+		20C4471D212A7D1A00922F58 /* LogDetailTextInputTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogDetailTextInputTableViewCell.xib; sourceTree = "<group>"; };
 		20DEB30120BEDFE600D51025 /* SabageLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SabageLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DEB30420BEDFE600D51025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20DEB30620BEDFE600D51025 /* LogListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				20DEB30B20BEDFE600D51025 /* Assets.xcassets */,
 				20DEB31020BEDFE600D51025 /* Info.plist */,
 				20DEB30D20BEDFE600D51025 /* LaunchScreen.storyboard */,
+				20C4471C212A7D1A00922F58 /* LogDetailTextInputTableViewCell.swift */,
+				20C4471D212A7D1A00922F58 /* LogDetailTextInputTableViewCell.xib */,
 				20C4471A21172DE800922F58 /* LogDetailViewController.swift */,
 				204974E720FCD0B400786266 /* LogItemModel.swift */,
 				20DEB33020BEE75D00D51025 /* LogListTableViewCell.swift */,
@@ -212,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20DEB30F20BEDFE600D51025 /* LaunchScreen.storyboard in Resources */,
+				20C4471F212A7D1A00922F58 /* LogDetailTextInputTableViewCell.xib in Resources */,
 				20DEB30C20BEDFE600D51025 /* Assets.xcassets in Resources */,
 				20DEB33320BEE83A00D51025 /* LogListTableViewCell.xib in Resources */,
 				20DEB30A20BEDFE600D51025 /* Main.storyboard in Resources */,
@@ -252,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20DEB32F20BEE47E00D51025 /* LogListViewModel.swift in Sources */,
+				20C4471E212A7D1A00922F58 /* LogDetailTextInputTableViewCell.swift in Sources */,
 				204974E820FCD0B400786266 /* LogItemModel.swift in Sources */,
 				20DEB30720BEDFE600D51025 /* LogListViewController.swift in Sources */,
 				20DEB33120BEE75D00D51025 /* LogListTableViewCell.swift in Sources */,

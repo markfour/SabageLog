@@ -36,7 +36,7 @@
         <!--Log List View Controller-->
         <scene sceneID="E0c-RA-uIZ">
             <objects>
-                <viewController id="LVj-6Y-BwX" customClass="LogListViewController" customModule="SabageLog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="logListViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LVj-6Y-BwX" customClass="LogListViewController" customModule="SabageLog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NPY-ck-dJP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,7 +95,7 @@
         <!--Log Detail View Controller-->
         <scene sceneID="fMC-k8-1zC">
             <objects>
-                <viewController storyboardIdentifier="LogListViewController" id="ccJ-OT-hN5" customClass="LogDetailViewController" customModule="SabageLog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogListViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ccJ-OT-hN5" customClass="LogDetailViewController" customModule="SabageLog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wrs-ki-paw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

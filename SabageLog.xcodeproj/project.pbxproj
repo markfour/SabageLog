@@ -13,6 +13,7 @@
 		20C4471B21172DE800922F58 /* LogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4471A21172DE800922F58 /* LogDetailViewController.swift */; };
 		20C4471E212A7D1A00922F58 /* LogDetailTextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4471C212A7D1A00922F58 /* LogDetailTextInputTableViewCell.swift */; };
 		20C4471F212A7D1A00922F58 /* LogDetailTextInputTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C4471D212A7D1A00922F58 /* LogDetailTextInputTableViewCell.xib */; };
+		20DAEA99214FBBDF00A7D845 /* LogDetailItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DAEA98214FBBDF00A7D845 /* LogDetailItemModel.swift */; };
 		20DEB30520BEDFE600D51025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DEB30420BEDFE600D51025 /* AppDelegate.swift */; };
 		20DEB30720BEDFE600D51025 /* LogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DEB30620BEDFE600D51025 /* LogListViewController.swift */; };
 		20DEB30A20BEDFE600D51025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DEB30820BEDFE600D51025 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		20C4471A21172DE800922F58 /* LogDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDetailViewController.swift; sourceTree = "<group>"; };
 		20C4471C212A7D1A00922F58 /* LogDetailTextInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDetailTextInputTableViewCell.swift; sourceTree = "<group>"; };
 		20C4471D212A7D1A00922F58 /* LogDetailTextInputTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogDetailTextInputTableViewCell.xib; sourceTree = "<group>"; };
+		20DAEA98214FBBDF00A7D845 /* LogDetailItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDetailItemModel.swift; sourceTree = "<group>"; };
 		20DEB30120BEDFE600D51025 /* SabageLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SabageLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DEB30420BEDFE600D51025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20DEB30620BEDFE600D51025 /* LogListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		20DAEA96214FB7D900A7D845 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				20DAEA98214FBBDF00A7D845 /* LogDetailItemModel.swift */,
 				204974E720FCD0B400786266 /* LogItemModel.swift */,
 				20DEB32E20BEE47E00D51025 /* LogListViewModel.swift */,
 			);
@@ -297,6 +300,7 @@
 				20DEB33120BEE75D00D51025 /* LogListTableViewCell.swift in Sources */,
 				20C4471B21172DE800922F58 /* LogDetailViewController.swift in Sources */,
 				20DEB30520BEDFE600D51025 /* AppDelegate.swift in Sources */,
+				20DAEA99214FBBDF00A7D845 /* LogDetailItemModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

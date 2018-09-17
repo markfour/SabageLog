@@ -53,7 +53,7 @@ extension LogListViewController: UITableViewDelegate {
     tableView.deselectRow(at: indexPath, animated: true)
     
     let storyborad = UIStoryboard(name: "Main", bundle: nil)
-    let logListViewController = storyborad.instantiateViewController(withIdentifier: "LogListViewController")
+    let logListViewController = storyborad.instantiateViewController(withIdentifier: "logDetailViewController")
     navigationController?.pushViewController(logListViewController, animated: true)
   }
 }

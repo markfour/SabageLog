@@ -44,8 +44,6 @@ extension LogListViewController: UITableViewDataSource {
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! LogListTableViewCell
-    cell.gameFiled = "TAF Zone"
-    cell.date = Date()
     return cell
   }
 }

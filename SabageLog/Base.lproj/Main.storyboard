@@ -85,7 +85,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="1mv-rC-4G2" id="JPT-gt-Ega"/>
-                        <segue destination="ccJ-OT-hN5" kind="show" id="voP-AE-bLs"/>
+                        <segue destination="ccJ-OT-hN5" kind="show" identifier="toLogDetailViewController" id="voP-AE-bLs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kUn-ar-EZ4" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -37,10 +37,10 @@ extension LogDetailViewController: UITableViewDataSource {
 
 extension LogDetailViewController: UITableViewDelegate {
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-    return 44.0
+    return UITableViewAutomaticDimension
   }
   
   func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-    return 44.0
+    return UITableViewAutomaticDimension
   }
 }

@@ -3,70 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		204974E420FCCCD800786266 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204974E320FCCCD700786266 /* RealmSwift.framework */; };
-		204974E620FCCCE700786266 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204974E520FCCCE700786266 /* Realm.framework */; };
-		204974E820FCD0B400786266 /* LogItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204974E720FCD0B400786266 /* LogItemModel.swift */; };
-		20C4471B21172DE800922F58 /* LogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4471A21172DE800922F58 /* LogDetailViewController.swift */; };
-		20C4471E212A7D1A00922F58 /* LogDetailTextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4471C212A7D1A00922F58 /* LogDetailTextInputTableViewCell.swift */; };
-		20C4471F212A7D1A00922F58 /* LogDetailTextInputTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C4471D212A7D1A00922F58 /* LogDetailTextInputTableViewCell.xib */; };
-		20DEB30520BEDFE600D51025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DEB30420BEDFE600D51025 /* AppDelegate.swift */; };
-		20DEB30720BEDFE600D51025 /* LogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DEB30620BEDFE600D51025 /* LogListViewController.swift */; };
-		20DEB30A20BEDFE600D51025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DEB30820BEDFE600D51025 /* Main.storyboard */; };
-		20DEB30C20BEDFE600D51025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20DEB30B20BEDFE600D51025 /* Assets.xcassets */; };
-		20DEB30F20BEDFE600D51025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DEB30D20BEDFE600D51025 /* LaunchScreen.storyboard */; };
-		20DEB31A20BEDFE600D51025 /* SabageLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DEB31920BEDFE600D51025 /* SabageLogTests.swift */; };
-		20DEB32F20BEE47E00D51025 /* LogListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DEB32E20BEE47E00D51025 /* LogListViewModel.swift */; };
-		20DEB33120BEE75D00D51025 /* LogListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DEB33020BEE75D00D51025 /* LogListTableViewCell.swift */; };
-		20DEB33320BEE83A00D51025 /* LogListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20DEB33220BEE83A00D51025 /* LogListTableViewCell.xib */; };
+		A081AA102826CF9E003D85A1 /* SabageLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081AA0F2826CF9E003D85A1 /* SabageLogApp.swift */; };
+		A081AA122826CF9E003D85A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081AA112826CF9E003D85A1 /* ContentView.swift */; };
+		A081AA142826CFA3003D85A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A081AA132826CFA3003D85A1 /* Assets.xcassets */; };
+		A081AA172826CFA3003D85A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A081AA162826CFA3003D85A1 /* Preview Assets.xcassets */; };
+		A081AA212826CFA3003D85A1 /* SabageLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081AA202826CFA3003D85A1 /* SabageLogTests.swift */; };
+		A081AA2B2826CFA3003D85A1 /* SabageLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081AA2A2826CFA3003D85A1 /* SabageLogUITests.swift */; };
+		A081AA2D2826CFA3003D85A1 /* SabageLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081AA2C2826CFA3003D85A1 /* SabageLogUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		20DEB31620BEDFE600D51025 /* PBXContainerItemProxy */ = {
+		A081AA1D2826CFA3003D85A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 20DEB2F920BEDFE600D51025 /* Project object */;
+			containerPortal = A081AA042826CF9E003D85A1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 20DEB30020BEDFE600D51025;
+			remoteGlobalIDString = A081AA0B2826CF9E003D85A1;
+			remoteInfo = SabageLog;
+		};
+		A081AA272826CFA3003D85A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A081AA042826CF9E003D85A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A081AA0B2826CF9E003D85A1;
 			remoteInfo = SabageLog;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		204974E320FCCCD700786266 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
-		204974E520FCCCE700786266 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
-		204974E720FCD0B400786266 /* LogItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogItemModel.swift; sourceTree = "<group>"; };
-		20C4471A21172DE800922F58 /* LogDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDetailViewController.swift; sourceTree = "<group>"; };
-		20C4471C212A7D1A00922F58 /* LogDetailTextInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDetailTextInputTableViewCell.swift; sourceTree = "<group>"; };
-		20C4471D212A7D1A00922F58 /* LogDetailTextInputTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogDetailTextInputTableViewCell.xib; sourceTree = "<group>"; };
-		20DEB30120BEDFE600D51025 /* SabageLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SabageLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		20DEB30420BEDFE600D51025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20DEB30620BEDFE600D51025 /* LogListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListViewController.swift; sourceTree = "<group>"; };
-		20DEB30920BEDFE600D51025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		20DEB30B20BEDFE600D51025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		20DEB30E20BEDFE600D51025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		20DEB31020BEDFE600D51025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20DEB31520BEDFE600D51025 /* SabageLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SabageLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		20DEB31920BEDFE600D51025 /* SabageLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabageLogTests.swift; sourceTree = "<group>"; };
-		20DEB31B20BEDFE600D51025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20DEB32E20BEE47E00D51025 /* LogListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListViewModel.swift; sourceTree = "<group>"; };
-		20DEB33020BEE75D00D51025 /* LogListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListTableViewCell.swift; sourceTree = "<group>"; };
-		20DEB33220BEE83A00D51025 /* LogListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogListTableViewCell.xib; sourceTree = "<group>"; };
+		A081AA0C2826CF9E003D85A1 /* SabageLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SabageLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A081AA0F2826CF9E003D85A1 /* SabageLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabageLogApp.swift; sourceTree = "<group>"; };
+		A081AA112826CF9E003D85A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A081AA132826CFA3003D85A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A081AA162826CFA3003D85A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A081AA1C2826CFA3003D85A1 /* SabageLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SabageLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A081AA202826CFA3003D85A1 /* SabageLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabageLogTests.swift; sourceTree = "<group>"; };
+		A081AA262826CFA3003D85A1 /* SabageLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SabageLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A081AA2A2826CFA3003D85A1 /* SabageLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabageLogUITests.swift; sourceTree = "<group>"; };
+		A081AA2C2826CFA3003D85A1 /* SabageLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabageLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20DEB2FE20BEDFE600D51025 /* Frameworks */ = {
+		A081AA092826CF9E003D85A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				204974E620FCCCE700786266 /* Realm.framework in Frameworks */,
-				204974E420FCCCD800786266 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20DEB31220BEDFE600D51025 /* Frameworks */ = {
+		A081AA192826CFA3003D85A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A081AA232826CFA3003D85A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,74 +71,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		204974E220FCCCD700786266 /* Frameworks */ = {
+		A081AA032826CF9E003D85A1 = {
 			isa = PBXGroup;
 			children = (
-				204974E520FCCCE700786266 /* Realm.framework */,
-				204974E320FCCCD700786266 /* RealmSwift.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		20DEB2F820BEDFE500D51025 = {
-			isa = PBXGroup;
-			children = (
-				20DEB30320BEDFE600D51025 /* SabageLog */,
-				20DEB31820BEDFE600D51025 /* SabageLogTests */,
-				20DEB30220BEDFE600D51025 /* Products */,
-				204974E220FCCCD700786266 /* Frameworks */,
+				A081AA0E2826CF9E003D85A1 /* SabageLog */,
+				A081AA1F2826CFA3003D85A1 /* SabageLogTests */,
+				A081AA292826CFA3003D85A1 /* SabageLogUITests */,
+				A081AA0D2826CF9E003D85A1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		20DEB30220BEDFE600D51025 /* Products */ = {
+		A081AA0D2826CF9E003D85A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20DEB30120BEDFE600D51025 /* SabageLog.app */,
-				20DEB31520BEDFE600D51025 /* SabageLogTests.xctest */,
+				A081AA0C2826CF9E003D85A1 /* SabageLog.app */,
+				A081AA1C2826CFA3003D85A1 /* SabageLogTests.xctest */,
+				A081AA262826CFA3003D85A1 /* SabageLogUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20DEB30320BEDFE600D51025 /* SabageLog */ = {
+		A081AA0E2826CF9E003D85A1 /* SabageLog */ = {
 			isa = PBXGroup;
 			children = (
-				20DEB30420BEDFE600D51025 /* AppDelegate.swift */,
-				20DEB30B20BEDFE600D51025 /* Assets.xcassets */,
-				20DEB31020BEDFE600D51025 /* Info.plist */,
-				20DEB30D20BEDFE600D51025 /* LaunchScreen.storyboard */,
-				20C4471C212A7D1A00922F58 /* LogDetailTextInputTableViewCell.swift */,
-				20C4471D212A7D1A00922F58 /* LogDetailTextInputTableViewCell.xib */,
-				20C4471A21172DE800922F58 /* LogDetailViewController.swift */,
-				204974E720FCD0B400786266 /* LogItemModel.swift */,
-				20DEB33020BEE75D00D51025 /* LogListTableViewCell.swift */,
-				20DEB33220BEE83A00D51025 /* LogListTableViewCell.xib */,
-				20DEB30620BEDFE600D51025 /* LogListViewController.swift */,
-				20DEB32E20BEE47E00D51025 /* LogListViewModel.swift */,
-				20DEB30820BEDFE600D51025 /* Main.storyboard */,
+				A081AA0F2826CF9E003D85A1 /* SabageLogApp.swift */,
+				A081AA112826CF9E003D85A1 /* ContentView.swift */,
+				A081AA132826CFA3003D85A1 /* Assets.xcassets */,
+				A081AA152826CFA3003D85A1 /* Preview Content */,
 			);
 			path = SabageLog;
 			sourceTree = "<group>";
 		};
-		20DEB31820BEDFE600D51025 /* SabageLogTests */ = {
+		A081AA152826CFA3003D85A1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				20DEB31920BEDFE600D51025 /* SabageLogTests.swift */,
-				20DEB31B20BEDFE600D51025 /* Info.plist */,
+				A081AA162826CFA3003D85A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A081AA1F2826CFA3003D85A1 /* SabageLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				A081AA202826CFA3003D85A1 /* SabageLogTests.swift */,
 			);
 			path = SabageLogTests;
+			sourceTree = "<group>";
+		};
+		A081AA292826CFA3003D85A1 /* SabageLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A081AA2A2826CFA3003D85A1 /* SabageLogUITests.swift */,
+				A081AA2C2826CFA3003D85A1 /* SabageLogUITestsLaunchTests.swift */,
+			);
+			path = SabageLogUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20DEB30020BEDFE600D51025 /* SabageLog */ = {
+		A081AA0B2826CF9E003D85A1 /* SabageLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20DEB31E20BEDFE600D51025 /* Build configuration list for PBXNativeTarget "SabageLog" */;
+			buildConfigurationList = A081AA302826CFA3003D85A1 /* Build configuration list for PBXNativeTarget "SabageLog" */;
 			buildPhases = (
-				20DEB2FD20BEDFE600D51025 /* Sources */,
-				20DEB2FE20BEDFE600D51025 /* Frameworks */,
-				20DEB2FF20BEDFE600D51025 /* Resources */,
-				204974E020FCAE7400786266 /* Run Script */,
+				A081AA082826CF9E003D85A1 /* Sources */,
+				A081AA092826CF9E003D85A1 /* Frameworks */,
+				A081AA0A2826CF9E003D85A1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -151,81 +144,106 @@
 			);
 			name = SabageLog;
 			productName = SabageLog;
-			productReference = 20DEB30120BEDFE600D51025 /* SabageLog.app */;
+			productReference = A081AA0C2826CF9E003D85A1 /* SabageLog.app */;
 			productType = "com.apple.product-type.application";
 		};
-		20DEB31420BEDFE600D51025 /* SabageLogTests */ = {
+		A081AA1B2826CFA3003D85A1 /* SabageLogTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20DEB32120BEDFE600D51025 /* Build configuration list for PBXNativeTarget "SabageLogTests" */;
+			buildConfigurationList = A081AA332826CFA3003D85A1 /* Build configuration list for PBXNativeTarget "SabageLogTests" */;
 			buildPhases = (
-				20DEB31120BEDFE600D51025 /* Sources */,
-				20DEB31220BEDFE600D51025 /* Frameworks */,
-				20DEB31320BEDFE600D51025 /* Resources */,
+				A081AA182826CFA3003D85A1 /* Sources */,
+				A081AA192826CFA3003D85A1 /* Frameworks */,
+				A081AA1A2826CFA3003D85A1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				20DEB31720BEDFE600D51025 /* PBXTargetDependency */,
+				A081AA1E2826CFA3003D85A1 /* PBXTargetDependency */,
 			);
 			name = SabageLogTests;
 			productName = SabageLogTests;
-			productReference = 20DEB31520BEDFE600D51025 /* SabageLogTests.xctest */;
+			productReference = A081AA1C2826CFA3003D85A1 /* SabageLogTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A081AA252826CFA3003D85A1 /* SabageLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A081AA362826CFA3003D85A1 /* Build configuration list for PBXNativeTarget "SabageLogUITests" */;
+			buildPhases = (
+				A081AA222826CFA3003D85A1 /* Sources */,
+				A081AA232826CFA3003D85A1 /* Frameworks */,
+				A081AA242826CFA3003D85A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A081AA282826CFA3003D85A1 /* PBXTargetDependency */,
+			);
+			name = SabageLogUITests;
+			productName = SabageLogUITests;
+			productReference = A081AA262826CFA3003D85A1 /* SabageLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		20DEB2F920BEDFE600D51025 /* Project object */ = {
+		A081AA042826CF9E003D85A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "kazumi hayashida";
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					20DEB30020BEDFE600D51025 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+					A081AA0B2826CF9E003D85A1 = {
+						CreatedOnToolsVersion = 13.3.1;
 					};
-					20DEB31420BEDFE600D51025 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 20DEB30020BEDFE600D51025;
+					A081AA1B2826CFA3003D85A1 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A081AA0B2826CF9E003D85A1;
+					};
+					A081AA252826CFA3003D85A1 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A081AA0B2826CF9E003D85A1;
 					};
 				};
 			};
-			buildConfigurationList = 20DEB2FC20BEDFE600D51025 /* Build configuration list for PBXProject "SabageLog" */;
-			compatibilityVersion = "Xcode 8.0";
+			buildConfigurationList = A081AA072826CF9E003D85A1 /* Build configuration list for PBXProject "SabageLog" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 20DEB2F820BEDFE500D51025;
-			productRefGroup = 20DEB30220BEDFE600D51025 /* Products */;
+			mainGroup = A081AA032826CF9E003D85A1;
+			productRefGroup = A081AA0D2826CF9E003D85A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20DEB30020BEDFE600D51025 /* SabageLog */,
-				20DEB31420BEDFE600D51025 /* SabageLogTests */,
+				A081AA0B2826CF9E003D85A1 /* SabageLog */,
+				A081AA1B2826CFA3003D85A1 /* SabageLogTests */,
+				A081AA252826CFA3003D85A1 /* SabageLogUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		20DEB2FF20BEDFE600D51025 /* Resources */ = {
+		A081AA0A2826CF9E003D85A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20DEB30F20BEDFE600D51025 /* LaunchScreen.storyboard in Resources */,
-				20C4471F212A7D1A00922F58 /* LogDetailTextInputTableViewCell.xib in Resources */,
-				20DEB30C20BEDFE600D51025 /* Assets.xcassets in Resources */,
-				20DEB33320BEE83A00D51025 /* LogListTableViewCell.xib in Resources */,
-				20DEB30A20BEDFE600D51025 /* Main.storyboard in Resources */,
+				A081AA172826CFA3003D85A1 /* Preview Assets.xcassets in Resources */,
+				A081AA142826CFA3003D85A1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20DEB31320BEDFE600D51025 /* Resources */ = {
+		A081AA1A2826CFA3003D85A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A081AA242826CFA3003D85A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,88 +252,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		204974E020FCAE7400786266 /* Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
-			);
-			name = "Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		20DEB2FD20BEDFE600D51025 /* Sources */ = {
+		A081AA082826CF9E003D85A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20DEB32F20BEE47E00D51025 /* LogListViewModel.swift in Sources */,
-				20C4471E212A7D1A00922F58 /* LogDetailTextInputTableViewCell.swift in Sources */,
-				204974E820FCD0B400786266 /* LogItemModel.swift in Sources */,
-				20DEB30720BEDFE600D51025 /* LogListViewController.swift in Sources */,
-				20DEB33120BEE75D00D51025 /* LogListTableViewCell.swift in Sources */,
-				20C4471B21172DE800922F58 /* LogDetailViewController.swift in Sources */,
-				20DEB30520BEDFE600D51025 /* AppDelegate.swift in Sources */,
+				A081AA122826CF9E003D85A1 /* ContentView.swift in Sources */,
+				A081AA102826CF9E003D85A1 /* SabageLogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20DEB31120BEDFE600D51025 /* Sources */ = {
+		A081AA182826CFA3003D85A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20DEB31A20BEDFE600D51025 /* SabageLogTests.swift in Sources */,
+				A081AA212826CFA3003D85A1 /* SabageLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A081AA222826CFA3003D85A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A081AA2D2826CFA3003D85A1 /* SabageLogUITestsLaunchTests.swift in Sources */,
+				A081AA2B2826CFA3003D85A1 /* SabageLogUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		20DEB31720BEDFE600D51025 /* PBXTargetDependency */ = {
+		A081AA1E2826CFA3003D85A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 20DEB30020BEDFE600D51025 /* SabageLog */;
-			targetProxy = 20DEB31620BEDFE600D51025 /* PBXContainerItemProxy */;
+			target = A081AA0B2826CF9E003D85A1 /* SabageLog */;
+			targetProxy = A081AA1D2826CFA3003D85A1 /* PBXContainerItemProxy */;
+		};
+		A081AA282826CFA3003D85A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A081AA0B2826CF9E003D85A1 /* SabageLog */;
+			targetProxy = A081AA272826CFA3003D85A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		20DEB30820BEDFE600D51025 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20DEB30920BEDFE600D51025 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		20DEB30D20BEDFE600D51025 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20DEB30E20BEDFE600D51025 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		20DEB31C20BEDFE600D51025 /* Debug */ = {
+		A081AA2E2826CFA3003D85A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -331,13 +320,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -356,8 +345,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -365,16 +355,16 @@
 			};
 			name = Debug;
 		};
-		20DEB31D20BEDFE600D51025 /* Release */ = {
+		A081AA2F2826CFA3003D85A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -390,13 +380,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -409,117 +399,184 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		20DEB31F20BEDFE600D51025 /* Debug */ = {
+		A081AA312826CFA3003D85A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QC7RJ22359;
-				FRAMEWORK_SEARCH_PATHS = (
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SabageLog/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"@executable_path/Frameworks",
 				);
-				INFOPLIST_FILE = SabageLog/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = id.SabageLog;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markfour.SabageLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		20DEB32020BEDFE600D51025 /* Release */ = {
+		A081AA322826CFA3003D85A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QC7RJ22359;
-				FRAMEWORK_SEARCH_PATHS = (
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SabageLog/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"@executable_path/Frameworks",
 				);
-				INFOPLIST_FILE = SabageLog/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = id.SabageLog;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markfour.SabageLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		20DEB32220BEDFE600D51025 /* Debug */ = {
+		A081AA342826CFA3003D85A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QC7RJ22359;
-				INFOPLIST_FILE = SabageLogTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = id.SabageLogTests;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markfour.SabageLogTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SabageLog.app/SabageLog";
 			};
 			name = Debug;
 		};
-		20DEB32320BEDFE600D51025 /* Release */ = {
+		A081AA352826CFA3003D85A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QC7RJ22359;
-				INFOPLIST_FILE = SabageLogTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = id.SabageLogTests;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markfour.SabageLogTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SabageLog.app/SabageLog";
+			};
+			name = Release;
+		};
+		A081AA372826CFA3003D85A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markfour.SabageLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SabageLog;
+			};
+			name = Debug;
+		};
+		A081AA382826CFA3003D85A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = markfour.SabageLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SabageLog;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20DEB2FC20BEDFE600D51025 /* Build configuration list for PBXProject "SabageLog" */ = {
+		A081AA072826CF9E003D85A1 /* Build configuration list for PBXProject "SabageLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20DEB31C20BEDFE600D51025 /* Debug */,
-				20DEB31D20BEDFE600D51025 /* Release */,
+				A081AA2E2826CFA3003D85A1 /* Debug */,
+				A081AA2F2826CFA3003D85A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20DEB31E20BEDFE600D51025 /* Build configuration list for PBXNativeTarget "SabageLog" */ = {
+		A081AA302826CFA3003D85A1 /* Build configuration list for PBXNativeTarget "SabageLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20DEB31F20BEDFE600D51025 /* Debug */,
-				20DEB32020BEDFE600D51025 /* Release */,
+				A081AA312826CFA3003D85A1 /* Debug */,
+				A081AA322826CFA3003D85A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20DEB32120BEDFE600D51025 /* Build configuration list for PBXNativeTarget "SabageLogTests" */ = {
+		A081AA332826CFA3003D85A1 /* Build configuration list for PBXNativeTarget "SabageLogTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20DEB32220BEDFE600D51025 /* Debug */,
-				20DEB32320BEDFE600D51025 /* Release */,
+				A081AA342826CFA3003D85A1 /* Debug */,
+				A081AA352826CFA3003D85A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A081AA362826CFA3003D85A1 /* Build configuration list for PBXNativeTarget "SabageLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A081AA372826CFA3003D85A1 /* Debug */,
+				A081AA382826CFA3003D85A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 20DEB2F920BEDFE600D51025 /* Project object */;
+	rootObject = A081AA042826CF9E003D85A1 /* Project object */;
 }

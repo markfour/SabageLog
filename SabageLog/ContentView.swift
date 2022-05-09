@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct GameLog: Identifiable {
-    let id = UUID()
+    let id: UUID = UUID()
+    let date: Date = Date()
     let fieldName: String
 }
 
@@ -17,7 +18,7 @@ struct GameLogListItemView: View {
 
     var body: some View {
         VStack {
-            Text(gameLog.id.uuidString)
+            Text(gameLog.date.description)
             Text(gameLog.fieldName)
         }
     }

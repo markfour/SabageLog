@@ -16,8 +16,10 @@ struct GameLogListItemView: View {
     var gameLog: GameLog
 
     var body: some View {
-        Text(gameLog.id.uuidString)
-        Text(gameLog.fieldName)
+        VStack {
+            Text(gameLog.id.uuidString)
+            Text(gameLog.fieldName)
+        }
     }
 }
 

@@ -19,7 +19,9 @@ struct GameLogListItemView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text(gameLog.date.logDate())
+                .font(.caption)
             Text(gameLog.fieldName)
+                .font(.headline)
         }
     }
 }

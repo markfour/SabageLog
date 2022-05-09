@@ -7,10 +7,34 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GameLog: Identifiable {
+    let id = UUID()
+    let fieldName: String
+}
+
+struct GameLogListItemView: View {
+    var gameLog: GameLog
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text(gameLog.id.uuidString)
+        Text(gameLog.fieldName)
+    }
+}
+
+struct ContentView: View {
+    private var gameLogs:[GameLog] = [
+        GameLog(fieldName: "森林フィールド"),
+        GameLog(fieldName: "デザートフィールド"),
+        GameLog(fieldName: "インドア"),
+        GameLog(fieldName: "インドア、森林混合フィールド"),
+    ]
+
+    var body: some View {
+        List {
+            ForEach(gameLogs) { gameLog in
+                GameLogListItemView(gameLog: gameLog)
+            }
+        }
     }
 }
 

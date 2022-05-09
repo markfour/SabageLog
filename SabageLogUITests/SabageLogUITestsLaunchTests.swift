@@ -2,7 +2,7 @@
 //  SabageLogUITestsLaunchTests.swift
 //  SabageLogUITests
 //
-//  Created by kazumi hayashida on 2022/05/08.
+//  Created by Markfour on 2022/05/08.
 //
 
 import XCTest

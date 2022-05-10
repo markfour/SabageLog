@@ -38,7 +38,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(gameLogs) { gameLog in
-                    NavigationLink(destination: GameLogDetailView()) {
+                    NavigationLink(destination: GameLogDetailView(gameLog: gameLog)) {
                         GameLogListItemView(gameLog: gameLog)
                     }
                 }
@@ -46,6 +46,7 @@ struct ContentView: View {
             .navigationBarItems(trailing: Button(action: {}) {
                 Text("追加")
             })
+            .navigationBarTitleDisplayMode(.inline)
         }.navigationViewStyle(StackNavigationViewStyle())
     }
 }

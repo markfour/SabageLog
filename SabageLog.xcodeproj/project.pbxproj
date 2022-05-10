@@ -75,6 +75,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0711C6D282AC10700758C81 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A081AA112826CF9E003D85A1 /* ContentView.swift */,
+				A0711C6928297E0600758C81 /* DateExtention.swift */,
+				A0711C6B282AC0DE00758C81 /* GameLogDetailView.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		A081AA032826CF9E003D85A1 = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +108,10 @@
 		A081AA0E2826CF9E003D85A1 /* SabageLog */ = {
 			isa = PBXGroup;
 			children = (
-				A081AA132826CFA3003D85A1 /* Assets.xcassets */,
-				A081AA112826CF9E003D85A1 /* ContentView.swift */,
-				A0711C6928297E0600758C81 /* DateExtention.swift */,
-				A0711C6B282AC0DE00758C81 /* GameLogDetailView.swift */,
-				A081AA152826CFA3003D85A1 /* Preview Content */,
 				A081AA0F2826CF9E003D85A1 /* SabageLogApp.swift */,
+				A081AA132826CFA3003D85A1 /* Assets.xcassets */,
+				A0711C6D282AC10700758C81 /* Class */,
+				A081AA152826CFA3003D85A1 /* Preview Content */,
 			);
 			path = SabageLog;
 			sourceTree = "<group>";

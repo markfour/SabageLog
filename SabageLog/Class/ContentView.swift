@@ -38,7 +38,9 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(gameLogs) { gameLog in
-                    GameLogListItemView(gameLog: gameLog)
+                    NavigationLink(destination: GameLogDetailView()) {
+                        GameLogListItemView(gameLog: gameLog)
+                    }
                 }
             }
             .navigationBarItems(trailing: Button(action: {}) {

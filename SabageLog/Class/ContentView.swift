@@ -41,7 +41,6 @@ struct ContentView: View {
                     GameLogListItemView(gameLog: gameLog)
                 }
             }
-            .navigationTitle("サバゲログ")
             .navigationBarItems(trailing: Button(action: {}) {
                 Text("追加")
             })

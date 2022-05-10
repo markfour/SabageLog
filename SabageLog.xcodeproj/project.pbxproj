@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A0711C6A28297E0600758C81 /* DateExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0711C6928297E0600758C81 /* DateExtention.swift */; };
+		A0711C6C282AC0DE00758C81 /* GameLogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0711C6B282AC0DE00758C81 /* GameLogDetailView.swift */; };
 		A081AA102826CF9E003D85A1 /* SabageLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081AA0F2826CF9E003D85A1 /* SabageLogApp.swift */; };
 		A081AA122826CF9E003D85A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081AA112826CF9E003D85A1 /* ContentView.swift */; };
 		A081AA142826CFA3003D85A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A081AA132826CFA3003D85A1 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		A0711C6928297E0600758C81 /* DateExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtention.swift; sourceTree = "<group>"; };
+		A0711C6B282AC0DE00758C81 /* GameLogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogDetailView.swift; sourceTree = "<group>"; };
 		A081AA0C2826CF9E003D85A1 /* SabageLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SabageLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A081AA0F2826CF9E003D85A1 /* SabageLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabageLogApp.swift; sourceTree = "<group>"; };
 		A081AA112826CF9E003D85A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,11 +98,12 @@
 		A081AA0E2826CF9E003D85A1 /* SabageLog */ = {
 			isa = PBXGroup;
 			children = (
-				A081AA0F2826CF9E003D85A1 /* SabageLogApp.swift */,
-				A081AA112826CF9E003D85A1 /* ContentView.swift */,
 				A081AA132826CFA3003D85A1 /* Assets.xcassets */,
-				A081AA152826CFA3003D85A1 /* Preview Content */,
+				A081AA112826CF9E003D85A1 /* ContentView.swift */,
 				A0711C6928297E0600758C81 /* DateExtention.swift */,
+				A0711C6B282AC0DE00758C81 /* GameLogDetailView.swift */,
+				A081AA152826CFA3003D85A1 /* Preview Content */,
+				A081AA0F2826CF9E003D85A1 /* SabageLogApp.swift */,
 			);
 			path = SabageLog;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0711C6C282AC0DE00758C81 /* GameLogDetailView.swift in Sources */,
 				A081AA122826CF9E003D85A1 /* ContentView.swift in Sources */,
 				A081AA102826CF9E003D85A1 /* SabageLogApp.swift in Sources */,
 				A0711C6A28297E0600758C81 /* DateExtention.swift in Sources */,

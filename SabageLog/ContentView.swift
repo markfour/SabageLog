@@ -35,10 +35,16 @@ struct ContentView: View {
     ]
 
     var body: some View {
-        List {
-            ForEach(gameLogs) { gameLog in
-                GameLogListItemView(gameLog: gameLog)
+        NavigationView {
+            List {
+                ForEach(gameLogs) { gameLog in
+                    GameLogListItemView(gameLog: gameLog)
+                }
             }
+            .navigationTitle("サバゲログ")
+            .navigationBarItems(trailing: Button(action: {}) {
+                Text("追加")
+            })
         }
     }
 }

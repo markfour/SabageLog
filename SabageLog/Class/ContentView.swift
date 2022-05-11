@@ -43,6 +43,7 @@ struct ContentView: View {
                     }
                 }
             }
+            .listStyle(.plain)
             .navigationBarItems(trailing: Button(action: {}) {
                 Text("追加")
             })

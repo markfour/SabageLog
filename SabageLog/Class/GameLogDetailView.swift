@@ -12,7 +12,7 @@ struct GameLogDetailView: View {
 
     var body: some View {
         NavigationView {
-            Form {
+            List {
                 Section {
                     Text(gameLog.date.logDate())
                         .font(.caption)
@@ -31,7 +31,7 @@ struct GameLogDetailView: View {
                     Text("使用したエアガン")
                         .font(.caption)
                 }
-            }
+            }.listStyle(.plain)
             .navigationBarTitleDisplayMode(.inline)
         }.navigationViewStyle(StackNavigationViewStyle())
     }

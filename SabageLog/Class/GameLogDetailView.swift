@@ -31,8 +31,12 @@ struct GameLogDetailView: View {
                     Text("使用したエアガン")
                         .font(.caption)
                 }
-            }.listStyle(.plain)
+                .listSectionSeparator(.hidden)
+                .listRowSeparator(.hidden)
+            }
+            .listStyle(.plain)
             .navigationBarTitleDisplayMode(.inline)
+
         }.navigationViewStyle(StackNavigationViewStyle())
     }
 }

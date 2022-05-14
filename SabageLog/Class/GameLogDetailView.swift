@@ -12,13 +12,16 @@ struct GameLogDetailView: View {
 
     var body: some View {
         NavigationView {
-            List {
-                Section {
+            List() {
+                Section() {
                     Text(gameLog.date.logDate())
                         .font(.caption)
+
                     Text(gameLog.fieldName)
                         .font(.headline)
                 }
+                .listSectionSeparator(.hidden)
+                .listRowSeparator(.hidden)
                 Section {
                     Text("参加人数")
                         .font(.caption)
@@ -33,9 +36,17 @@ struct GameLogDetailView: View {
                 }
                 .listSectionSeparator(.hidden)
                 .listRowSeparator(.hidden)
+                .listRowInsets(
+                    EdgeInsets(top: 0,
+                               leading: 0,
+                               bottom: 0,
+                               trailing: 0
+                              )
+                )
             }
             .listStyle(.plain)
             .navigationBarTitleDisplayMode(.inline)
+
 
         }.navigationViewStyle(StackNavigationViewStyle())
     }

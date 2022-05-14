@@ -32,9 +32,8 @@ struct GameLogDetailView: View {
                 }
                 Spacer()
             }
-
-        }.navigationViewStyle(StackNavigationViewStyle())
             .navigationBarTitleDisplayMode(.inline)
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

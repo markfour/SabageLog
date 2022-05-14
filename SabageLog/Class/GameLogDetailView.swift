@@ -12,16 +12,12 @@ struct GameLogDetailView: View {
 
     var body: some View {
         NavigationView {
-            List() {
-                Section() {
-                    Text(gameLog.date.logDate())
-                        .font(.caption)
+            VStack(alignment: .leading, spacing: nil) {
+                Text(gameLog.date.logDate())
+                    .font(.caption)
 
-                    Text(gameLog.fieldName)
-                        .font(.headline)
-                }
-                .listSectionSeparator(.hidden)
-                .listRowSeparator(.hidden)
+                Text(gameLog.fieldName)
+                    .font(.headline)
                 Section {
                     Text("参加人数")
                         .font(.caption)
@@ -34,21 +30,11 @@ struct GameLogDetailView: View {
                     Text("使用したエアガン")
                         .font(.caption)
                 }
-                .listSectionSeparator(.hidden)
-                .listRowSeparator(.hidden)
-                .listRowInsets(
-                    EdgeInsets(top: 0,
-                               leading: 0,
-                               bottom: 0,
-                               trailing: 0
-                              )
-                )
+                Spacer()
             }
-            .listStyle(.plain)
-            .navigationBarTitleDisplayMode(.inline)
-
 
         }.navigationViewStyle(StackNavigationViewStyle())
+            .navigationBarTitleDisplayMode(.inline)
     }
 }
 
